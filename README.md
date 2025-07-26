@@ -1,20 +1,71 @@
-Qt-Powered Data Structure Visualizer
-A modular, cross-platform desktop application built with the Qt Framework to visualize common data structures like binary trees, graphs, and more. This tool provides an interactive interface to understand complex structures visually, making it useful for students, educators, and developers alike.
+# 🚀 Qt-Powered Data Structure Visualizer
 
-🚀 Features
-🧩 Modular Design — Clean separation of logic via Qt plugins for extensibility.
+A high-performance, cross-platform **GUI application** built using the **Qt Framework** to **animate, explore, and understand core data structures** like **binary trees** and **graphs**. Designed with a **plugin-ready architecture**, this tool transforms abstract data concepts into rich, dynamic visuals — ideal for learners, educators, and developers seeking deep insights into algorithmic flow.
 
-🎨 Dynamic Visualization — Uses QPainter and QGraphicsView for real-time drawing and updates.
+---
 
-🖱️ Interactive GUI — Designed with Qt Widgets like QPushButton, QTextEdit, and QLabel.
+## ✨ Key Highlights
 
-🪟 Responsive Layout — Adaptive UI using QGridLayout and custom handling with QResizeEvent.
+- ⚙️ **Modular Qt Architecture** — Engineered with **QPluginLoader** and a scalable class hierarchy to support rapid expansion.
+- 🧠 **Smart Visualizations** — Utilizes **QGraphicsView**, **QPainter**, and **QGridLayout** for real-time rendering of nodes, edges, and transitions.
+- 🖱️ **Fully Interactive UI** — Leverages `QPushButton`, `QTextEdit`, `QLabel`, and responsive layouts for seamless user interaction.
+- 🧵 **Clean Event Handling** — Structured with `QApplication`, `QResizeEvent`, and custom signals/slots for responsive feedback loops.
+- 🛠️ **Multi-Platform Build Support** — Build-ready via both **CMake** and **QMake** for Linux, Windows, and macOS.
 
-🏗️ Cross-Platform Build — Build-ready with both CMake and QMake.
+---
 
-🛠️ Tech Stack
-Component	Tool/Framework
-Language	C++
-GUI Framework	Qt Widgets, QPainter
-Build Systems	CMake, QMake
-IDE (Suggested)	Qt Creator / CLion
+## 🔧 Tech Stack
+
+| Layer              | Tools & Technologies         |
+|--------------------|------------------------------|
+| Language           | C++17                        |
+| GUI Framework      | Qt Widgets, QPainter         |
+| Build Systems      | CMake (Primary), QMake       |
+| IDE Support        | Qt Creator, VSCode, CLion    |
+| OS Compatibility   | Windows, Linux, macOS        |
+
+---
+
+## 🏗️ Project Structure
+
+📁 src/
+├── main.cpp
+├── core/ # Logic & structure definitions
+├── plugins/ # Visualization modules (BinaryTree, Graph)
+└── ui/ # Layouts & widget controls
+📄 CMakeLists.txt
+📄 project.pro
+📄 README.md                                                                                                                                                                                                      
+
+
+
+---
+
+## 🔌 Visualizer Modules
+
+- 🌳 **Binary Tree Visualizer** – Auto-aligns nodes, draws edges, supports insertion animations.
+- 🌐 **Graph Visualizer** – Visualizes nodes and edges with directed/undirected toggles.
+- ⏳ **Coming Soon** – Linked List, Stack, Queue, and Trie visualizations.
+
+---
+
+## ⚙️ Build & Run
+
+### 🔗 Prerequisites
+
+- Qt 5.15+ or Qt 6.x
+- CMake ≥ 3.15
+- C++17-compliant compiler
+
+### 🧪 Build with CMake
+
+```bash
+git clone https://github.com/mohit12932/qt_pro
+cd qt_pro
+mkdir build && cd build
+cmake ..
+make
+./Visualizer
+
+
+
