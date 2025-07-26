@@ -29,28 +29,27 @@ A high-performance, cross-platform **GUI application** built using the **Qt Fram
 ## 🏗️ Project Structure
 
 qt-data-structure-visualizer/
-├── Headers/                      # Header files for UI and rendering components
-│   ├── CircleNode.h              # Represents visual node structure
-│   ├── Layout.h                  # Layout manager for placing nodes
-│   ├── Line.h                    # Edge/connection class for visualization
-│   ├── TreeNode.h                # Data structure node (binary tree logic)
-│   └── mainWindow.h              # Main application window interface
-│
-├── Sources/                      # Implementation files
-│   ├── CircleNode.cpp            # Implements circular node drawing logic
-│   ├── Layout.cpp                # Node positioning and layout rendering
-│   ├── Line.cpp                  # Edge drawing logic (QPainter)
-│   ├── TreeNode.cpp              # Binary tree logic and structure
-│   ├── mainWindow.cpp            # GUI logic, button events, signal-slot handling
-│   └── *.h (duplicates from Headers)  # (Consider removing to keep structure clean)
-│
-├── releases/                     # Build artifacts and release binaries
-│   ├── qtpro.dll
-│   ├── readme.md
-│
-├── qmake.pro                     # QMake project configuration file
-├── README.md                     # Project documentation
-                                                                                                                                                                                                   
+├── 🧠 Headers/                         # Class declarations and interfaces
+│   ├── 🟡 CircleNode.h                 # Represents visual data node (e.g., circle in tree)
+│   ├── 🗺️ Layout.h                     # Tree layout and positioning logic
+│   ├── 📏 Line.h                       # Defines connection lines between nodes
+│   ├── 🌳 TreeNode.h                   # Logical structure of binary tree node
+│   └── 🪟 mainWindow.h                 # Main GUI window interface
+
+├── 🛠️ Sources/                         # Core implementation files
+│   ├── 🟡 CircleNode.cpp               # QPainter logic for rendering nodes
+│   ├── 🗺️ Layout.cpp                   # Visual layout rendering and resizing
+│   ├── 📏 Line.cpp                     # Edge drawing using QPainter paths
+│   ├── 🌳 TreeNode.cpp                 # Data handling and tree operations
+│   └── 🪟 mainWindow.cpp               # UI logic, signal-slot handling, rendering
+
+├── 📦 releases/                        # Output binaries and packaged files
+│   ├── 🧩 qtpro.dll                    # Qt project-related binary
+│   └── 📄 readme.md                    # Possibly legacy doc (rename recommended)
+
+├── ⚙️ qmake.pro                        # QMake project file (for Qt Creator builds)
+├── 📄 README.md                        # Main documentation file (this file)
+                                                                                                                                      
 
 
 
