@@ -28,27 +28,32 @@ A high-performance, cross-platform **GUI application** built using the **Qt Fram
 
 ## 🏗️ Project Structure
 
+## 📁 Project Structure
+
+<pre>
 qt-data-structure-visualizer/
-├── 🧠 Headers/                         # Class declarations and interfaces
-│   ├── 🟡 CircleNode.h                 # Represents visual data node (e.g., circle in tree)
-│   ├── 🗺️ Layout.h                     # Tree layout and positioning logic
-│   ├── 📏 Line.h                       # Defines connection lines between nodes
-│   ├── 🌳 TreeNode.h                   # Logical structure of binary tree node
-│   └── 🪟 mainWindow.h                 # Main GUI window interface
+├── Headers/                     # Header files for UI and logic
+│   ├── CircleNode.h             # Visual representation of nodes
+│   ├── Layout.h                 # Layout manager for visual structure
+│   ├── Line.h                   # Edge/connection between nodes
+│   ├── TreeNode.h               # Binary tree node data structure
+│   └── mainWindow.h             # Main application window class
+│
+├── Sources/                     # Source files (.cpp implementations)
+│   ├── CircleNode.cpp           # Node rendering logic (QPainter)
+│   ├── Layout.cpp               # Layout calculation and drawing
+│   ├── Line.cpp                 # Line/edge drawing implementation
+│   ├── TreeNode.cpp             # Binary tree algorithms
+│   └── mainWindow.cpp           # Signal-slot UI handling and rendering
+│
+├── releases/                    # Compiled binaries and release files
+│   ├── qtpro.dll                # Compiled Qt dynamic library
+│   └── readme.md                # Auxiliary/legacy readme file
+│
+├── qmake.pro                    # QMake project configuration
+└── README.md                    # Main project documentation
+</pre>
 
-├── 🛠️ Sources/                         # Core implementation files
-│   ├── 🟡 CircleNode.cpp               # QPainter logic for rendering nodes
-│   ├── 🗺️ Layout.cpp                   # Visual layout rendering and resizing
-│   ├── 📏 Line.cpp                     # Edge drawing using QPainter paths
-│   ├── 🌳 TreeNode.cpp                 # Data handling and tree operations
-│   └── 🪟 mainWindow.cpp               # UI logic, signal-slot handling, rendering
-
-├── 📦 releases/                        # Output binaries and packaged files
-│   ├── 🧩 qtpro.dll                    # Qt project-related binary
-│   └── 📄 readme.md                    # Possibly legacy doc (rename recommended)
-
-├── ⚙️ qmake.pro                        # QMake project file (for Qt Creator builds)
-├── 📄 README.md                        # Main documentation file (this file)
                                                                                                                                       
 
 
