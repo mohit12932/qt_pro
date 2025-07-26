@@ -28,14 +28,29 @@ A high-performance, cross-platform **GUI application** built using the **Qt Fram
 
 ## 🏗️ Project Structure
 
-📁 src/
-├── main.cpp
-├── core/ # Logic & structure definitions
-├── plugins/ # Visualization modules (BinaryTree, Graph)
-└── ui/ # Layouts & widget controls
-📄 CMakeLists.txt
-📄 project.pro
-📄 README.md                                                                                                                                                                                                      
+qt-data-structure-visualizer/
+├── Headers/                      # Header files for UI and rendering components
+│   ├── CircleNode.h              # Represents visual node structure
+│   ├── Layout.h                  # Layout manager for placing nodes
+│   ├── Line.h                    # Edge/connection class for visualization
+│   ├── TreeNode.h                # Data structure node (binary tree logic)
+│   └── mainWindow.h              # Main application window interface
+│
+├── Sources/                      # Implementation files
+│   ├── CircleNode.cpp            # Implements circular node drawing logic
+│   ├── Layout.cpp                # Node positioning and layout rendering
+│   ├── Line.cpp                  # Edge drawing logic (QPainter)
+│   ├── TreeNode.cpp              # Binary tree logic and structure
+│   ├── mainWindow.cpp            # GUI logic, button events, signal-slot handling
+│   └── *.h (duplicates from Headers)  # (Consider removing to keep structure clean)
+│
+├── releases/                     # Build artifacts and release binaries
+│   ├── qtpro.dll
+│   ├── readme.md
+│
+├── qmake.pro                     # QMake project configuration file
+├── README.md                     # Project documentation
+                                                                                                                                                                                                   
 
 
 
