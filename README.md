@@ -157,4 +157,4 @@ This is a structured, professional codebase ready for extension:
 
 ---
 
-**Built with ❤️ using Qt6**
+**Built using Qt6**
