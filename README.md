@@ -2,6 +2,17 @@
 
 A professional Qt6-based application for visualizing various data structures with beautiful graphics and intuitive navigation.
 
+# Screenshot of the Terminal
+
+<img width="639" height="816" alt="Screenshot 2025-12-28 210112" src="https://github.com/user-attachments/assets/76932587-eeee-450e-8a3f-29585902f075" />
+<img width="1000" height="979" alt="Screenshot 2025-12-28 212013" src="https://github.com/user-attachments/assets/ab1c62cd-2a53-4008-914f-bec3bb95f73b" />
+<img width="928" height="978" alt="Screenshot 2025-12-28 210140" src="https://github.com/user-attachments/assets/49359643-036b-4d87-a77f-126309968c4a" />
+<img width="835" height="296" alt="Screenshot 2025-12-28 211959" src="https://github.com/user-attachments/assets/11eadbd0-d402-4400-b4a5-dde7795544fa" />
+<img width="999" height="1001" alt="Screenshot 2025-12-28 212040" src="https://github.com/user-attachments/assets/1d30de1d-226c-45c1-9f0a-fa248fb0e443" />
+<img width="980" height="351" alt="Screenshot 2025-12-28 212222" src="https://github.com/user-attachments/assets/023f2a88-365a-4051-87ea-87c23186ab38" />
+<img width="993" height="138" alt="Screenshot 2025-12-28 212235" src="https://github.com/user-attachments/assets/1e1113d0-ca33-4de2-a1c1-f1b9f67647fe" />
+
+
 ## 📁 Project Structure
 
 ```
